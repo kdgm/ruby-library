@@ -32,6 +32,7 @@ require 'sirportly/data_objects/ticket_update'
 require 'sirportly/data_objects/twitter_account'
 require 'sirportly/data_objects/user'
 require 'sirportly/data_objects/support_centre'
+require 'sirportly/data_objects/support_centre_topic'
 
 module Sirportly
   VERSION = '1.4.4'
