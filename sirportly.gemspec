@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/sirportly.rb", 'lib/sirportly/**/*.rb']
   s.bindir = "bin"
   s.require_path = 'lib'
+  s.add_dependency('json')
   s.add_dependency('multipart-post', '~> 2.0.0')
   s.has_rdoc = false
   s.author = "Adam Cooke"
