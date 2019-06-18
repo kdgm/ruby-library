@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.bindir = "bin"
   s.require_path = 'lib'
   s.add_dependency('json')
-  s.add_dependency('multipart-post', '~> 2.0.0')
+  s.add_dependency('multipart-post')
   s.has_rdoc = false
   s.author = "Adam Cooke"
   s.email = "adam@atechmedia.com"
